@@ -13,5 +13,5 @@ WORKDIR /opt/hello-world-app
 COPY . /opt/hello-world-app
 
 # run
-EXPOSE 3030
+EXPOSE 3001
 CMD ["npm", "start"]
